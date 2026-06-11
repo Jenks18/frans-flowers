@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Fran | Fran's Flowers</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-content">
+        <h1><span class="accent">Fran's</span> Flowers</h1>
+        <p class="tagline">Brightening San Francisco since 1995</p>
+      </div>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#fran-story">Her Story</a>
+        <a href="#fran-mission">Our Mission</a>
+        <a href="index.html#visit-us">Visit Us</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="about-fran" id="fran-story">
+        <h2>Meet <span class="accent">Fran</span></h2>
+        <div class="fran-content">
+          <div class="fran-text">
+            <p>
+              Francine "Fran" Miller founded Fran's Flowers in 1995 with a simple dream: to spread joy and beauty through flowers in the heart of San Francisco's Mission District.
+            </p>
+            <p>
+              With over 30 years of experience in floral design, Fran learned her craft from her mother, who was a passionate gardener and florist herself. What started as a small shop with a handful of flowers has grown into a beloved community staple.
+            </p>
+            <p>
+              Every arrangement that leaves our shop carries Fran's personal touch—a commitment to quality, creativity, and making every occasion special. Whether it's a wedding, a birthday, or just because someone needs a smile, Fran believes flowers have the power to connect us.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="fran-mission" id="fran-mission">
+        <h2>Our <span class="accent">Mission</span></h2>
+        <div class="mission-content">
+          <article class="mission-item">
+            <h3>Quality First</h3>
+            <p>
+              We source the finest, freshest flowers available. Every stem is hand-selected to ensure your arrangement is beautiful and long-lasting.
+            </p>
+          </article>
+
+          <article class="mission-item">
+            <h3>Community Focused</h3>
+            <p>
+              10% of every sale goes directly to fighting homelessness in the Bay Area. Buying flowers from Fran's means supporting real change in our community.
+            </p>
+          </article>
+
+          <article class="mission-item">
+            <h3>Creativity & Connection</h3>
+            <p>
+              We don't just make arrangements—we create moments. Our team takes time to understand your needs and craft something truly special.
+            </p>
+          </article>
+
+          <article class="mission-item">
+            <h3>Sustainability</h3>
+            <p>
+              We're committed to environmentally responsible practices, from sourcing to packaging. Beautiful flowers shouldn't come at the cost of our planet.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="team-story">
+        <h2>A <span class="accent">Family</span> Business</h2>
+        <p>
+          Over the years, Fran has built a team of passionate florists who share her vision. Each member of our team is dedicated to bringing happiness to our customers and supporting our community.
+        </p>
+        <p>
+          What makes Fran's special isn't just the flowers—it's the people. When you walk through our doors, you're not just a customer. You're part of the Fran's Flowers family.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Fran's Flowers</h3>
+          <p>Brightening lives one flower at a time since 1995</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#specials">Weekly Specials</a></li>
+            <li><a href="index.html#visit-us">Visit Us</a></li>
+            <li><a href="about-fran.html">About Fran</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#" class="social-icon" title="Facebook">f</a>
+            <a href="#" class="social-icon" title="Instagram">@</a>
+            <a href="#" class="social-icon" title="Twitter">𝕏</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Fran's Flowers LLC. | 10% of proceeds go to fighting homelessness in the Bay Area</p>
+      </div>
+    </footer>
+
+    <style>
+      .about-fran {
+        background-color: #faf8f3;
+        border-left: 5px solid #c2165a;
+      }
+
+      .fran-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .fran-text p {
+        font-size: 1.05rem;
+        line-height: 1.8;
+        color: #333;
+        margin-bottom: 1.5rem;
+      }
+
+      .mission-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+      }
+
+      .mission-item {
+        background-color: #f5f0ff;
+        padding: 1.5rem;
+        border-radius: 10px;
+        border-left: 4px solid #c2165a;
+        transition: transform 0.3s ease;
+      }
+
+      .mission-item:hover {
+        transform: translateY(-3px);
+      }
+
+      .mission-item h3 {
+        color: #1a3a5c;
+        margin-bottom: 1rem;
+      }
+
+      .mission-item p {
+        color: #333;
+        line-height: 1.7;
+      }
+
+      .team-story {
+        background: linear-gradient(135deg, #fff5f7 0%, #f5f0ff 100%);
+        text-align: center;
+        border-top: 5px solid #c2165a;
+      }
+
+      .team-story p {
+        font-size: 1.05rem;
+        line-height: 1.8;
+        color: #333;
+        margin-bottom: 1.5rem;
+      }
+    </style>
+  </body>
+</html>

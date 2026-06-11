@@ -13,6 +13,12 @@
         <h1><span class="accent">Fran's</span> Flowers</h1>
         <p class="tagline">Brightening San Francisco since 1995</p>
       </div>
+      <nav class="navbar">
+        <a href="#about-us">About</a>
+        <a href="#specials">Specials</a>
+        <a href="#visit-us">Visit Us</a>
+        <a href="about-fran.html">About Fran</a>
+      </nav>
     </header>
 
     <div id="hero-container">
@@ -24,7 +30,7 @@
     </div>
 
     <main>
-      <section class="about-us">
+      <section class="about-us" id="about-us">
         <h2><span class="accent">About</span> Us</h2>
         <p>
           Fran's Flowers was founded in 1995 by Francine Miller to share joy,
@@ -37,7 +43,7 @@
         <p>Thank you for helping us grow kindness one flower at a time.</p>
       </section>
 
-      <section class="specials">
+      <section class="specials" id="specials">
         <h2><span class="accent">Weekly</span> Specials</h2>
         <div class="specials-list">
           <article class="special-offer">
@@ -63,7 +69,49 @@
         </div>
       </section>
 
-      <section class="visit-us">
+      <section class="seasonal-picks" id="seasonal-picks">
+        <h2><span class="accent">Seasonal</span> Picks</h2>
+        <div class="seasonal-content">
+          <div class="seasonal-feature">
+            <img src="img/potted_plant.png" alt="June Peony Bundle - Perfect for Weddings" />
+            <h3>June Peonies</h3>
+            <p class="featured-desc">Our star this season! Lush, romantic peonies perfect for weddings and celebrations.</p>
+            <p class="seasonal-tag">✿ Perfect for: Weddings & Anniversaries</p>
+            <p class="seasonal-info">Available through June only</p>
+          </div>
+          <div class="seasonal-text">
+            <p>
+              Peonies are a showstopper! These full, fragrant blooms are the quintessential summer flower, and we've sourced the most beautiful varieties from local growers.
+            </p>
+            <p>
+              Each peony arrangement is carefully crafted to showcase the delicate layers of petals. Whether you're celebrating a special occasion or treating yourself, June is the time for peonies.
+            </p>
+            <p style="font-size: 1.2rem; font-weight: bold; color: #d4567e;">Don't miss out—order yours while they're in season!</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <h2><span class="accent">What Our</span> Customers Say</h2>
+        <div class="testimonials-list">
+          <article class="testimonial">
+            <p class="quote">"Fran's Flowers made my wedding day absolutely perfect. The arrangements were stunning, and the team went above and beyond to make sure everything was just right. I couldn't have asked for better!"</p>
+            <p class="author">— Sarah M.</p>
+          </article>
+
+          <article class="testimonial">
+            <p class="quote">"I send flowers from Fran's to my mom every Mother's Day. The quality is always incredible, and knowing that 10% goes to fighting homelessness makes me feel good about my purchase."</p>
+            <p class="author">— Michael T.</p>
+          </article>
+
+          <article class="testimonial">
+            <p class="quote">"The team at Fran's is so knowledgeable and kind. They helped me pick the perfect arrangement for a difficult time, and their recommendations were spot on."</p>
+            <p class="author">— Jennifer L.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="visit-us" id="visit-us">
         <h2><span class="accent">Visit</span> Us</h2>
         <div class="contact-info">
           <p>Come in and say hi!</p>
@@ -84,8 +132,30 @@
 
     <footer>
       <div class="footer-content">
-        <p>&copy; 2025 Fran's Flowers LLC.</p>
-        <p>Brightening lives one flower at a time</p>
+        <div class="footer-section">
+          <h3>Fran's Flowers</h3>
+          <p>Brightening lives one flower at a time since 1995</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#specials">Weekly Specials</a></li>
+            <li><a href="#visit-us">Visit Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#" class="social-icon" title="Facebook">f</a>
+            <a href="#" class="social-icon" title="Instagram">@</a>
+            <a href="#" class="social-icon" title="Twitter">𝕏</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Fran's Flowers LLC. | 10% of proceeds go to fighting homelessness in the Bay Area</p>
       </div>
     </footer>
   </body>
